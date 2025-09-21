@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+
+    <!-- swiper CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+   <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS file link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section starts -->
+     <section class="header">
+        <a href="index.html" class="logo">travel.</a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about</a>
+            <a href="package.html">package</a>
+            <a href="book.html">book</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+     </section>
+    <!-- header section ends -->
+
+      <div class="heading" style="background: url(images/bookbg.jpg) no-repeat">
+         <h1>book</h1>
+      </div>
+
+    <!-- booking section starts -->
+
+    <section class="booking">
+      <h1 class="heading-title">book your trip!</h1>
+      <form id="bookingForm" action="https://formspree.io/f/xvgwpowr" method="POST" class="book-form">
+         <div class="flex">
+            <div class="inputBox">
+               <span>name: </span>
+               <input type="text" placeholder="enter your name" name="name">
+            </div>
+
+            <div class="inputBox">
+               <span>email: </span>
+               <input type="email" placeholder="enter your email" name="email">
+            </div>
+
+            <div class="inputBox">
+               <span>phone: </span>
+               <input type="number" placeholder="enter your number" name="phone">
+            </div>
+
+            <div class="inputBox">
+               <span>address: </span>
+               <input type="text" placeholder="enter your address" name="address">
+            </div>
+
+            <div class="inputBox">
+               <span>where to: </span>
+               <input type="text" placeholder="place you want to visit" name="location">
+            </div>
+
+            <div class="inputBox">
+               <span>how many: </span>
+               <input type="number" placeholder="number of guests" name="guests">
+            </div>
+
+            <div class="inputBox">
+               <span>arrivals: </span>
+               <input type="date" name="arrivals">
+            </div>
+
+            <div class="inputBox">
+               <span>leaving: </span>
+               <input type="date" name="leaving">
+            </div>
+         </div>
+
+         <input type="submit" value="submit" class="btn" name="send">
+      </form>
+    </section>
+    
+    <!-- booking section starts -->
+
+<!-- footer section starts -->
+<section class="footer">
+   <div class="box-container">
+    <div class="box">
+       <h3>quick links</h3>
+       <a href="index.html"><i class="fas fa-angle-right"></i> home</a>
+       <a href="about.html"><i class="fas fa-angle-right"></i> about</a>
+       <a href="package.html"><i class="fas fa-angle-right"></i> package</a>
+       <a href="book.html"><i class="fas fa-angle-right"></i> book</a>   
+    </div>
+    <div class="box">
+       <h3>extra links</h3>
+       <a href="#"><i class="fas fa-angle-right"></i> ask questions</a>
+       <a href="#"><i class="fas fa-angle-right"></i> about us</a>  
+       <a href="#"><i class="fas fa-angle-right"></i> privacy policies</a>  
+       <a href="#"><i class="fas fa-angle-right"></i> terms of use</a>    
+    </div>
+     <div class="box">
+       <h3>contact info</h3>
+       <a href="#"><i class="fas fa-phone"></i> +254-879-4563</a>
+       <a href="#"><i class="fas fa-phone"></i> +111-667-3457</a>
+       <a href="#"><i class="fas fa-envelope"></i> antolsolutions@gmail.com</a>
+       <a href="#"><i class="fas fa-map"></i> Nairobi, Kenya - 41900</a>
+     </div>
+     <div class="box">
+        <h3>follow us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+        <a href="#"><i class="fa-solid fa-x"></i>X</a>
+        <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+        <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+     </div>   
+    </div>
+    <div class="credit"> Created By <span> Antol Solutions</span> | all rights reserved! </div>
+</section>
+<!-- footer section ends -->
+<!-- Swiper js link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Custom js file link -->
+ <script src="script.js"></script>
+</body>
+</html>
